@@ -47,7 +47,7 @@ Esquema de contactos en KOP del _Marcha-Paro_. Se utilizan dos pulsadores normal
 > **Contacto Directo**. Se comporta de manera directa a la realidad.</br>
 > **Contacto Negado**. Se comporta de manera inversa a la realidad.
 
-![alt text](image-4.png "Esquema cableado marcha-paro motor trifásico"){width=75%}
+![alt text](image-4.png "Esquema cableado marcha-paro motor trifásico")
 ![alt text](image-5.png "Esquema marcha-paro en KOP")
 ![alt text](image-6.png "Esquem marcha-paro en FUP")
 ![alt text](image-7.png "Esquema conexión LOGO al circuito")
