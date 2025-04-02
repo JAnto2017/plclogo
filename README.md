@@ -8,6 +8,7 @@
   - [Marcha-Paro con Tres Luces Piloto](#marcha-paro-con-tres-luces-piloto)
     - [Arranque de un Motor Trifásico](#arranque-de-un-motor-trifásico)
   - [Marcha-Paro con dos Putos de Encenddo y tres Luces](#marcha-paro-con-dos-putos-de-encenddo-y-tres-luces)
+    - [Arranque de un Motor con dos Puntos de Encendido](#arranque-de-un-motor-con-dos-puntos-de-encendido)
 
 - - -
 
@@ -56,3 +57,12 @@ Esquema de contactos en KOP del _Marcha-Paro_. Se utilizan dos pulsadores normal
 - - -
 
 ## Marcha-Paro con dos Putos de Encenddo y tres Luces
+
+### Arranque de un Motor con dos Puntos de Encendido
+
+![alt text](image-9.png "Esquema cableado marcha-paro dos pusadores")
+![alt text](image-10.png "Programa en KOP marcha-paro dos pusadores")
+![alt text](image-11.png "Programa en FUP marcha-paro dos pulsadores")
+![alt text](image-12.png "Detalle del relé térmico")
+![alt text](image-13.png "Esquema programa KOP en CADe-SIMU")
+![alt text](image-14.png "Esquem completo en CADe-SIMU")
