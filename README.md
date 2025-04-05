@@ -9,6 +9,14 @@
     - [Arranque de un Motor Trifásico](#arranque-de-un-motor-trifásico)
   - [Marcha-Paro con dos Putos de Encenddo y tres Luces](#marcha-paro-con-dos-putos-de-encenddo-y-tres-luces)
     - [Arranque de un Motor con dos Puntos de Encendido](#arranque-de-un-motor-con-dos-puntos-de-encendido)
+  - [Inversión de Sentido de Giro Motor Monofásico](#inversión-de-sentido-de-giro-motor-monofásico)
+    - [Arranque Motor Monofásico con Inversión de Giro](#arranque-motor-monofásico-con-inversión-de-giro)
+  - [Inversión de Sentido de Giro Motor Trifásico](#inversión-de-sentido-de-giro-motor-trifásico)
+    - [Esquema de contactos cableado Giro Motor Trifásico](#esquema-de-contactos-cableado-giro-motor-trifásico)
+    - [Esquema KOP y conexiones en CADe-SIMU Giro Motor Trifásico](#esquema-kop-y-conexiones-en-cade-simu-giro-motor-trifásico)
+  - [Arranque de un Motor Trifásico con Apagado Programado](#arranque-de-un-motor-trifásico-con-apagado-programado)
+    - [Esquema de contactos cableado con Apagado Programado](#esquema-de-contactos-cableado-con-apagado-programado)
+    - [Esquema KOP y conexiones en CADe-SIMU Apagado Motor Trifásico](#esquema-kop-y-conexiones-en-cade-simu-apagado-motor-trifásico)
 
 - - -
 
@@ -66,3 +74,41 @@ Esquema de contactos en KOP del _Marcha-Paro_. Se utilizan dos pulsadores normal
 ![alt text](image-12.png "Detalle del relé térmico")
 ![alt text](image-13.png "Esquema programa KOP en CADe-SIMU")
 ![alt text](image-14.png "Esquem completo en CADe-SIMU")
+
+- - -
+
+## Inversión de Sentido de Giro Motor Monofásico
+
+### Arranque Motor Monofásico con Inversión de Giro
+
+![alt text](image-15.png "Esquema contactos giro motor")
+![alt text](image-16.png "Programa en KOP")
+
+- - -
+
+## Inversión de Sentido de Giro Motor Trifásico
+
+### Esquema de contactos cableado Giro Motor Trifásico
+
+![alt text](image-17.png "Esquema cableado motor trifásico inversión de giro")
+
+### Esquema KOP y conexiones en CADe-SIMU Giro Motor Trifásico
+
+![alt text](image-18.png "Esquema KOP y conexiones en CADe-SIMU")
+![alt text](image-19.png "Programa en KOP en el LOGO SOFT")
+
+- - -
+
+## Arranque de un Motor Trifásico con Apagado Programado
+
+### Esquema de contactos cableado con Apagado Programado
+
+![alt text](image-20.png "Esquema cableado con apagado programado en CADE-SIMU")
+![alt text](image-23.png "Esquema cableado con apagado programado en LOGO-SOFT")
+
+### Esquema KOP y conexiones en CADe-SIMU Apagado Motor Trifásico
+
+![alt text](image-21.png "Esquema KOP y conexiones en CADe-SIMU")
+![alt text](image-22.png "Esquema cableado LOGO con elementos en CADe-SIMU")
+
+- - -
