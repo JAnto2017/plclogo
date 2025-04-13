@@ -62,6 +62,23 @@
     - [Esquema de contactos cableado Arranque de tres Motores Trifásicos con Retraso en el Encendido y Apagado Automático y Retención](#esquema-de-contactos-cableado-arranque-de-tres-motores-trifásicos-con-retraso-en-el-encendido-y-apagado-automático-y-retención)
     - [Esquema KOP Arranque de tres Motores Trifásicos con Retraso en el Encendido y Apagado Automático y Retención](#esquema-kop-arranque-de-tres-motores-trifásicos-con-retraso-en-el-encendido-y-apagado-automático-y-retención)
   - [Semáforo Básico con dos Luces](#semáforo-básico-con-dos-luces)
+    - [Esquema de contactos cableado Semáforo Básico con dos Luces](#esquema-de-contactos-cableado-semáforo-básico-con-dos-luces)
+    - [Esquema KOP Semáforo Básico con dos Luces](#esquema-kop-semáforo-básico-con-dos-luces)
+  - [Semáforo Básico con tres Luces](#semáforo-básico-con-tres-luces)
+    - [Esquema de contactos cableado Semáforo Básico con tres Luces](#esquema-de-contactos-cableado-semáforo-básico-con-tres-luces)
+    - [Esquema KOP Semáforo Básico con tres Luces](#esquema-kop-semáforo-básico-con-tres-luces)
+  - [Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial](#arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial)
+    - [Esquema de contactos cableado Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial](#esquema-de-contactos-cableado-arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial)
+    - [Esquema KOP Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial](#esquema-kop-arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial)
+  - [Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1](#arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial-1-2-2-1)
+    - [Esquema de contactos cableado Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1](#esquema-de-contactos-cableado-arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial-1-2-2-1)
+    - [Esquema KOP Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1](#esquema-kop-arranque-secuencial-de-dos-motores-trifásicos-con-apagado-secuencial-1-2-2-1)
+  - [Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1](#arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-3-2-1)
+    - [Esquema de contactos cableado Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1](#esquema-de-contactos-cableado-arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-3-2-1)
+    - [Esquema KOP Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1](#esquema-kop-arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-3-2-1)
+  - [Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3](#arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-1-2-3)
+    - [Esquema de contactos cableado Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3](#esquema-de-contactos-cableado-arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-1-2-3)
+    - [Esquema KOP Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3](#esquema-kop-arranque-secuencial-de-tres-motores-trifásicos-con-apagado-secuencial-1-2-3-1-2-3)
 
 - - -
 
@@ -367,3 +384,91 @@ Tres motores trifásicos, se encienden secuencialmente cada motor con un retardo
 - - -
 
 ## Semáforo Básico con dos Luces
+
+Se utilizan dos luces, una roja y otra verde. La luz verde se enciende cuando se pulsa el pulsador de encendido durante un tiempo de 5 segundos. La luz roja se enciende cuando la luz verde se apaga activando otro temporizador de 5 segundos. El proceso se vuelve a luz verde a la espera del siguiente encendido. Se utilizan 3 temporizadores.
+
+### Esquema de contactos cableado Semáforo Básico con dos Luces
+
+![alt text](image-59.png "Esquema cableado con semáforo básico con dos luces")
+
+### Esquema KOP Semáforo Básico con dos Luces
+
+![alt text](image-60.png "Programa KOP")
+
+- - -
+
+## Semáforo Básico con tres Luces
+
+Con el pulsador de encendido se enciende la luz verde. Después de 5 segundos se enciende la luz amarilla y después de 5 segundos se enciende la luz roja. Cuando se apaga la luz roja se enciende la luz verde (este temporizador T4 = 0.1 segundos). Se utilizan 4 temporizadores.
+
+### Esquema de contactos cableado Semáforo Básico con tres Luces
+
+![alt text](image-61.png "Esquema cableado con semáforo básico con tres luces")
+
+### Esquema KOP Semáforo Básico con tres Luces
+
+![alt text](image-62.png "Programa KOP")
+
+- - -
+
+## Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial
+
+Tras pulsar inicio, se enciende el motor 1, después de 5 segundos se enciende el motor 2 y después de 5 segundos se apaga el motor 1, pasados 5 segundos se apaga el motor 2. Se utilizan 3 temporizadores.
+
+### Esquema de contactos cableado Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial
+
+![alt text](image-64.png "Esquema cableado con arranque secuencial de dos motores trifásicos con apagado secuencial")
+
+### Esquema KOP Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial
+
+![alt text](image-65.png "Programa KOP")
+
+- - -
+
+## Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1
+
+Tras pulsar inicio, se enciende el motor 1, luego de 5 segundos se enciende el motor 2 y luego de 5 segundos se apaga el motor 1, pasados 5 segundos se apaga el motor 2. Se utilizan 3 temporizadores.
+
+### Esquema de contactos cableado Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1
+
+![alt text](image-66.png "Esquema cableado con arranque secuencial de dos motores trifásicos con apagado secuencial 1-2 2-1")
+
+### Esquema KOP Arranque Secuencial de dos Motores Trifásicos con Apagado Secuencial 1-2 2-1
+
+![alt text](image-67.png "Programa KOP")
+
+- - -
+
+## Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1
+
+Se utilizan 6 temporizadores, para realizar la secuencia de arranque secuencial de tres motores trifásicos con apagado secuencial 1-2-3 3-2-1.
+
+![alt text](image-71.png "Diagrama de flujo temporizadores activación/desactivación")
+
+### Esquema de contactos cableado Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1
+
+![alt text](image-68.png "Esquema cableado con arranque secuencial de tres motores trifásicos con apagado secuencial 1-2-3 3-2-1")
+
+### Esquema KOP Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 3-2-1
+
+![alt text](image-69.png "Programa KOP I")
+![alt text](image-70.png "Programa KOP II")
+
+- - -
+
+## Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3
+
+Se utilizan 6 temporizadores, para realizar la secuencia de arranque secuencial de tres motores trifásicos con apagado secuencial 1-2-3 1-2-3.
+
+### Esquema de contactos cableado Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3
+
+![alt text](image-72.png "Esquema cableado con arranque secuencial de tres motores trifásicos con apagado secuencial 1-2-3 1-2-3")
+
+### Esquema KOP Arranque Secuencial de Tres Motores Trifásicos con Apagado Secuencial 1-2-3 1-2-3
+
+![alt text](image-73.png "Programa KOP I")
+![alt text](image-74.png "Programa KOP II")
+
+Diagrama de flujo temporizadores activación/desactivación:
+
+![alt text](image-75.png ""Diagrama de flujo temporizadores activación/desactivación")
